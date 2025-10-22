@@ -1,0 +1,1035 @@
+* {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgba(245, 245, 247, 1);
+}
+
+.logo-apple {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1px;
+  height: 1px;
+}
+
+.main-store1 {
+  position: fixed;
+  width: 100%;
+  height: 44px;
+  background-color: rgba(245, 245, 247, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-store2 {
+  width: 100%;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+}
+
+.choice3 {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  font-size: 12px;
+}
+
+.choice4 {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  gap: 4px;
+}
+
+/* .logo-store {
+  display: flex;
+  width: 15px;
+  height: 16px;
+} */
+
+.logoo {
+  display: flex;
+  width: 15px;
+  height: 16px;
+}
+
+.neon {
+  background-image: url(./neon.png);
+  display: flex;
+  width: 100%;
+  height: 75px;
+  -webkit-text-fill-color: transparent;
+}
+
+.gift {
+  font-family: "Inter", sans-serif;
+  /* width: 100%; */
+  height: 260px;
+  background-color: rgba(245, 245, 247, 1);
+  font-size: 44px;
+  /* padding-left: 140px; */
+  padding-top: 80px;
+  margin-left: 140px;
+}
+
+.wom {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  width: 35px;
+  height: 35px;
+  font-size: 14px;
+  /* padding-left: 1470px; */
+  margin-left: 1554px;
+}
+
+.chimgee {
+  display: flex;
+  flex-direction: column;
+}
+
+span {
+  background: linear-gradient(90deg, #0090f7, #ba62fc, #f2416b, #f55600);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.device {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 146px;
+  background-color: rgba(245, 245, 247, 1);
+  gap: 20px;
+}
+
+img {
+  width: 120px;
+  height: 78px;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.zurag1 {
+  background-image: url(./16pro.jpg);
+  width: 480px;
+  height: 500px;
+  background-size: cover;
+  border-radius: 18px;
+}
+
+.zurag2 {
+  background-image: url(./watch\ series.jpg);
+  width: 480px;
+  height: 500px;
+  background-size: cover;
+  border-radius: 18px;
+}
+
+.zurag3 {
+  background-image: url(./ipad\ mini.jpg);
+  width: 480px;
+  height: 500px;
+  background-size: cover;
+  border-radius: 18px;
+}
+
+.zurag4 {
+  background-image: url(./macbook\ pro.jpg);
+  width: 480px;
+  height: 500px;
+  background-size: cover;
+  border-radius: 18px;
+}
+
+.latest {
+  /* width: 100%; */
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  background-color: rgba(245, 245, 247, 1);
+  display: flex;
+  padding-top: 50px;
+  /* padding-left: 140px; */
+  margin-left: 140px;
+}
+
+.options1 {
+  display: flex;
+  gap: 7px;
+  /* padding-top: 30px; */
+}
+
+.color1 {
+  background-image: url(./1f3bb219a6f22780133ce85e7bb588bc7174a3e6.jpg);
+  width: 12px;
+  height: 12px;
+  background-position: center;
+  background-size: cover;
+}
+
+.color2 {
+  background-image: url(./207df8329ded2a4c11cc81e1616c8c9bfeb79697.jpg);
+  width: 12px;
+  height: 12px;
+  background-position: center;
+  background-size: cover;
+}
+
+.color3 {
+  background-image: url(./2325a32458ffeff83fcf42d8328a670b959767f5.jpg);
+  width: 12px;
+  height: 12px;
+  background-position: center;
+  background-size: cover;
+}
+
+.color4 {
+  background-image: url(./34abf4e745e114b233019ed7da3feb256776720e.jpg);
+  width: 12px;
+  height: 12px;
+  background-position: center;
+  background-size: cover;
+}
+
+.color5 {
+  background-image: url(./c2f70733b60fb3c92ee60f4a571450be3a6da4e6.jpg);
+  width: 12px;
+  height: 12px;
+  background-position: center;
+  background-size: cover;
+}
+
+.color6 {
+  background-image: url(./dd058ea9f8f4c85e38dc4da07a1e1c5c78b35748.jpg);
+  width: 12px;
+  height: 12px;
+  background-position: center;
+  background-size: cover;
+}
+
+.color11 {
+  background-image: url(./dark-green.jpg);
+  width: 12px;
+  height: 12px;
+  background-position: center;
+  background-size: cover;
+}
+
+.color22 {
+  background-image: url(./dark-yellow.jpg);
+  width: 12px;
+  height: 12px;
+  background-position: center;
+  background-size: cover;
+}
+
+.color33 {
+  background-image: url(./black.jpg);
+  width: 12px;
+  height: 12px;
+  background-position: center;
+  background-size: cover;
+}
+
+.color44 {
+  background-image: url(./orange.jpg);
+  width: 12px;
+  height: 12px;
+  background-position: center;
+  background-size: cover;
+}
+
+.color55 {
+  background-image: url(./white.jpg);
+  width: 12px;
+  height: 12px;
+  background-position: center;
+  background-size: cover;
+}
+
+.color111 {
+  background-image: url(./4619b869d77bc4e57eac742b5de8f02a39e1101c.jpg);
+  width: 12px;
+  height: 12px;
+  background-position: center;
+  background-size: cover;
+}
+
+.color222 {
+  background-image: url(./8aa3c7425b5c3701d68c9c95fc36d449dcf39dad.jpg);
+  width: 12px;
+  height: 12px;
+  background-position: center;
+  background-size: cover;
+}
+
+.color333 {
+  background-image: url(./ae64ddb28a4654d49117f13791a24ed88875d445.jpg);
+  width: 12px;
+  height: 12px;
+  background-position: center;
+  background-size: cover;
+}
+
+.color444 {
+  background-image: url(./d2a3be9f4aad223f6701bca74dfd87d33b346041.jpg);
+  width: 12px;
+  height: 12px;
+  background-position: center;
+  background-size: cover;
+}
+
+.color1111 {
+  background-image: url(./black.jpg);
+  width: 12px;
+  height: 12px;
+  background-position: center;
+  background-size: cover;
+}
+
+.color2222 {
+  background-image: url(./huh.jpg);
+  width: 12px;
+  height: 12px;
+  background-position: center;
+  background-size: cover;
+}
+
+.color3333 {
+  background-image: url(./saar.jpg);
+  width: 12px;
+  height: 12px;
+  background-position: center;
+  background-size: cover;
+}
+
+.intell {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  font-size: 12px;
+  color: rgba(182, 68, 0, 1);
+}
+
+.size {
+  font-size: 26px;
+}
+
+.zad1 {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 12px;
+  padding-right: 240px;
+}
+
+.from {
+  font-size: 14px;
+}
+
+p {
+  color: rgba(110, 110, 115, 1);
+}
+
+.device1 {
+  font-family: "Inter", sans-serif;
+  width: 100%;
+  height: 558px;
+  background-color: rgba(245, 245, 247, 1);
+}
+
+.boxes1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  width: 100%;
+  padding-top: 35px;
+  background-color: rgba(245, 245, 247, 1);
+  /* overflow-x: scroll; */
+  gap: 20px;
+  /* scroll-snap-type: x mandatory; */
+}
+
+.scroll1 {
+  width: 480px;
+  height: 500px;
+  /* flex-shrink: 0; */
+}
+
+.zurag11 {
+  font-family: "Inter", sans-serif;
+  background-image: url(./airpods2.jpg);
+  width: 480px;
+  height: 448px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 18px;
+  padding-top: 53px;
+  padding-left: 30px;
+}
+
+.zurag22 {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 460px;
+  height: 500px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 18px;
+}
+
+.zurag33 {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 460px;
+  height: 500px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 18px;
+}
+
+.zurag44 {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 460px;
+  height: 500px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 18px;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.zurag55 {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 460px;
+  height: 500px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 18px;
+}
+
+.make1 {
+  font-size: 26px;
+}
+
+.make2 {
+  font-size: 26px;
+  padding: 30px;
+}
+
+.zad2 {
+  display: flex;
+  flex-direction: column;
+  padding-right: 60px;
+  padding-top: 90px;
+}
+
+.pad2 {
+  padding-right: 20px;
+  padding: 30px;
+  padding-bottom: 45px;
+}
+
+.pro {
+  width: 260px;
+  height: 260px;
+  padding-top: 30px;
+}
+
+.purple1 {
+  padding-top: 20px;
+}
+
+.gift {
+  color: rgba(110, 110, 115, 1);
+}
+
+.free {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  color: rgba(182, 68, 0, 1);
+}
+
+.free1 {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  color: rgba(182, 68, 0, 1);
+  padding-left: 28px;
+}
+
+.purple {
+  padding-top: 6px;
+  font-size: 18px;
+}
+
+.dollar {
+  font-size: 14px;
+  padding-top: 52px;
+}
+.dollar3 {
+  font-size: 14px;
+  padding-top: 25px;
+}
+
+.dollar1 {
+  font-size: 14px;
+  padding-left: 28px;
+  padding-top: 20px;
+}
+
+.rot1 {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  padding-left: 28px;
+}
+
+.rot {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.zurag111 {
+  font-family: "Inter", sans-serif;
+  background-image: url(./surprise.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 18px;
+}
+
+.device2 {
+  font-family: "Inter", sans-serif;
+  max-width: 2090px;
+  height: 558px;
+  margin-left: 140px;
+  /* width: 100%; */
+  background-color: rgba(245, 245, 247, 1);
+  padding-top: 60px;
+}
+
+.boxes2 {
+  display: flex;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  /* width: 100%; */
+  background-color: rgba(245, 245, 247, 1);
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  gap: 20px;
+}
+
+.scroll2 {
+  /* width: 480px; */
+  height: 500px;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 18px;
+}
+
+.device3 {
+  font-family: "Inter", sans-serif;
+  max-width: 2090px;
+  height: 558px;
+  margin-left: 140px;
+  background-color: rgba(245, 245, 247, 1);
+  padding-top: 60px;
+}
+
+.boxes3 {
+  display: flex;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  /* width: 100%; */
+  background-color: rgba(245, 245, 247, 1);
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  gap: 20px;
+}
+
+.scroll3 {
+  width: 480px;
+  height: 500px;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 18px;
+}
+
+.gg1 {
+  padding: 20px;
+}
+
+.gg2 {
+  padding: 20px;
+  padding-right: 180px;
+  margin-top: 14px;
+}
+
+.gg3 {
+  padding: 20px;
+  padding-bottom: 75px;
+}
+
+.gg4 {
+  padding: 20px;
+  padding-right: 180px;
+}
+
+.gg11 {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  color: rgba(182, 68, 0, 1);
+  padding-left: 28px;
+  margin-bottom: 6px;
+}
+
+.gg33 {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  color: rgba(182, 68, 0, 1);
+}
+
+.gg44 {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  color: rgba(182, 68, 0, 1);
+  margin-bottom: 6px;
+}
+
+.bag {
+  background-image: url(./bag.jpg);
+  width: 480px;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  font-size: 26px;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  border-radius: 18px;
+}
+
+.boxxess {
+  width: 313px;
+  height: 240px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 18px;
+}
+
+.boxxess {
+  display: flex;
+}
+
+.boxx1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  text-align: center;
+}
+
+.neg {
+  width: 313px;
+  height: 240px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hoyr {
+  width: 313px;
+  height: 240px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxx2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  text-align: center;
+}
+
+.gurav {
+  width: 313px;
+  height: 240px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.duruv {
+  width: 313px;
+  height: 240px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.current {
+  background-image: url(./double.jpg);
+  width: 480px;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  font-size: 26px;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  border-radius: 18px;
+}
+
+.credit {
+  display: flex;
+  padding-top: 54px;
+  text-align: center;
+}
+
+.ohin {
+  background-image: url(./ohin.jpg);
+  width: 480px;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  font-size: 26px;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  border-radius: 18px;
+}
+
+.device4 {
+  font-family: "Inter", sans-serif;
+  max-width: 2090px;
+  height: 558px;
+  margin-left: 140px;
+  background-color: rgba(245, 245, 247, 1);
+  padding-top: 60px;
+}
+
+.boxes4 {
+  display: flex;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  width: 100%;
+  background-color: rgba(245, 245, 247, 1);
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  gap: 20px;
+}
+
+.scroll4 {
+  width: 500px;
+  height: 500px;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 18px;
+}
+
+.music {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  color: rgba(110, 110, 115, 1);
+}
+
+.with {
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+}
+
+.option {
+  background-image: url(./option.png.jpg);
+  width: 480px;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  font-size: 26px;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  border-radius: 18px;
+}
+
+.zurag1111 {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 8px;
+}
+
+.zurag2222 {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  color: white;
+  gap: 8px;
+}
+
+.zurag3333 {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 8px;
+}
+
+.zurag4444 {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 8px;
+}
+
+.jaal {
+  background-image: url(./jaal.png);
+  width: 480px;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  font-size: 26px;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  border-radius: 18px;
+  flex-direction: column;
+}
+
+.list {
+  background-image: url(./list.jpg);
+  width: 480px;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  font-size: 26px;
+  font-family: "Inter", sans-serif;
+  border-radius: 18px;
+}
+
+.phone-pad {
+  background-image: url(./phone-pad.jpg);
+  width: 480px;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  font-size: 26px;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  border-radius: 18px;
+}
+
+.device5 {
+  font-family: "Inter", sans-serif;
+  max-width: 2090px;
+  height: 558px;
+  margin-left: 140px;
+  padding-top: 60px;
+  background-color: rgba(245, 245, 247, 1);
+}
+
+.boxes5 {
+  display: flex;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  width: 100%;
+  background-color: rgba(245, 245, 247, 1);
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  gap: 20px;
+}
+
+.scroll5 {
+  width: 480px;
+  height: 500px;
+  flex-shrink: 0;
+  background-color: rgba(245, 245, 247, 1);
+}
+
+.one-stop {
+  font-size: 26px;
+}
+
+.device6 {
+  font-family: "Inter", sans-serif;
+  max-width: 2090px;
+  margin-left: 140px;
+  height: 500px;
+  background-color: rgba(245, 245, 247, 1);
+  padding-top: 60px;
+}
+
+.boxes6 {
+  display: flex;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  background-color: rgba(245, 245, 247, 1);
+  width: 100%;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  gap: 20px;
+}
+
+.scroll6 {
+  width: 400px;
+  height: 500px;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 18px;
+}
+
+.platf {
+  background-image: url(./platf.jpg);
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  font-size: 26px;
+  border-radius: 18px;
+}
+
+.mac-ipad {
+  background-image: url(./mac\ or\ ipad.jpg);
+  width: 400px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  font-size: 26px;
+  border-radius: 18px;
+}
+
+.refur {
+  background-image: url(./refurbished.jpg);
+  width: 400px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  font-size: 26px;
+  border-radius: 18px;
+}
+
+.message {
+  background-image: url(./message.jpg);
+  width: 400px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-size: 26px;
+  border-radius: 18px;
+}
+
+.green-desk {
+  background-image: url(./green\ desk.jpg);
+  background-color: rgba(255, 255, 255, 1);
+  width: 400px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  font-size: 26px;
+  border-radius: 18px;
+}
+
+.zurag-last1 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 30px;
+}
+
+.zurag-last2 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 30px;
+}
+
+.zurag-last3 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 30px;
+}
+
+.zurag-last4 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 30px;
+}
+
+.zurag-last5 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 30px;
+}
+
+.quick {
+  font-family: "Inter", sans-serif;
+  font-size: 26px;
+  margin-left: 140px;
+  padding-top: 50px;
+}
+
+.buttons {
+  display: flex;
+  gap: 12px;
+  padding: 90px;
+  margin-left: 40px;
+}
+
+button {
+  display: flex;
+  width: 125px;
+  height: 40px;
+  border-radius: 999px;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  border: none;
+  border: rgba(29, 29, 31, 1);
+}
+
+.back-last {
+  background-color: rgba(245, 245, 247, 1);
+}

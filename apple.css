@@ -1,0 +1,1044 @@
+* {
+  margin: 0px;
+}
+
+.background10 {
+  display: none;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.apple {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.choice1 {
+  display: flex;
+  gap: 24px;
+  font-family: "Inter", sans-serif;
+}
+
+.bla {
+  display: flex;
+  gap: 24px;
+  font-family: "Inter", sans-serif;
+}
+
+.choice2 {
+  display: flex;
+  font-family: "Inter", sans-serif;
+}
+
+.logoo {
+  display: flex;
+  width: 16px;
+  height: 19px;
+}
+
+.logo-apple {
+  display: flex;
+  width: 12.97px;
+  height: 15.94px;
+}
+
+.back1 {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 44px;
+  background-color: rgba(245, 245, 247, 0.8);
+  font-size: 12px;
+}
+
+.back2 {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 52px;
+  background-color: yellow;
+  font-size: 14px;
+}
+
+.background1 {
+  background-image: url(./Neg.jpg);
+  background-position: center;
+  width: 100%;
+  height: 692px;
+}
+
+.background2 {
+  background-image: url(./Hoyr.jpg);
+  background-position: center;
+  width: 100%;
+  height: 692px;
+}
+
+.gap {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.background3 {
+  background-image: url(./Gurav.jpg);
+  background-position: center;
+  width: 100%;
+  height: 692px;
+}
+
+.backgrounds1 {
+  display: flex;
+  gap: 12px;
+}
+
+.background4 {
+  font-family: "Inter", sans-serif;
+  background-image: url(./f34a75b3ce6969be90a261c4e631ecdfff8d60c9.jpg);
+  width: 50%;
+  height: 580px;
+  background-position: center;
+}
+
+.background5 {
+  font-family: "Inter", sans-serif;
+  background-image: url(./airpod.jpg);
+  width: 50%;
+  height: 580px;
+  background-position: center;
+}
+
+.backgrounds2 {
+  display: flex;
+  gap: 12px;
+}
+
+.background6 {
+  font-family: "Inter", sans-serif;
+  background-image: url(./backgound6.jpg);
+  width: 50%;
+  height: 580px;
+  background-position: center;
+}
+
+.background7 {
+  background-image: url(./background7.jpg);
+  font-family: "Inter", sans-serif;
+  width: 50%;
+  height: 580px;
+  background-position: center;
+}
+
+.backgrounds3 {
+  display: flex;
+  gap: 12px;
+}
+
+.background8 {
+  font-family: "Inter", sans-serif;
+  background-image: url(./background8.jpg);
+  width: 50%;
+  height: 580px;
+  background-position: center;
+}
+
+.background9 {
+  font-family: "Inter", sans-serif;
+  background-image: url(./background9.jpg);
+  width: 50%;
+  height: 580px;
+  background-position: center;
+}
+
+.device1 {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 52px;
+  color: rgba(245, 245, 247, 1);
+  padding-top: 55px;
+}
+
+.device2 {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: rgba(245, 245, 247, 1);
+  margin-top: 20px;
+}
+
+.device3 {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 52px;
+  color: rgba(245, 245, 247, 1);
+  padding-top: 55px;
+}
+
+.device4 {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: rgba(245, 245, 247, 1);
+  margin-top: 20px;
+}
+
+.button {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 16px;
+}
+
+.learn {
+  border-radius: 999px;
+  border: none;
+  width: 123px;
+  height: 44px;
+  background-color: rgba(0, 113, 227, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+}
+
+.buy {
+  border-radius: 999px;
+  border: none;
+  width: 68px;
+  height: 44px;
+  color: rgba(41, 151, 255, 1);
+}
+
+.gift {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 52px;
+}
+
+.make {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.shop {
+  border-radius: 999px;
+  border: none;
+  width: 114px;
+  height: 44px;
+  font-size: 16px;
+  background-color: rgba(0, 113, 227, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.gift-magic {
+  padding-top: 446px;
+}
+
+.ipad-air {
+  margin-top: 58px;
+  padding-left: 475px;
+}
+
+.two {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  padding-top: 9px;
+}
+
+.airpods-pro {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(245, 245, 247, 1);
+  font-size: 36px;
+  padding-top: 401px;
+}
+
+.now {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(245, 245, 247, 1);
+}
+
+.logo-watch {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  gap: 8px;
+  padding-top: 58px;
+}
+
+.logo1 {
+  width: 26.35px;
+  height: 27px;
+}
+
+.logo2 {
+  width: 26.35px;
+  height: 27px;
+}
+
+.logo3 {
+  width: 26.35px;
+  height: 27px;
+}
+
+.series {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thinstant {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.macbook-air {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  padding-top: 48px;
+}
+
+.lean {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+}
+
+.logo-trade {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  padding-top: 58.42px;
+  gap: 8px;
+}
+
+.get {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  padding-top: 4px;
+}
+
+.trade {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  padding-top: 4px;
+}
+
+.logo-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  padding-top: 58px;
+  gap: 8px;
+}
+
+.get-up {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  padding-top: 4px;
+}
+
+.with {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  padding-top: 4px;
+}
+
+.get-button {
+  width: 167px;
+  height: 40px;
+  border-radius: 999px;
+  border: none;
+  background-color: rgba(0, 113, 227, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+}
+
+.apply {
+  width: 112px;
+  height: 40px;
+  border-radius: 999px;
+  border: none;
+  color: rgba(0, 113, 227, 1);
+  font-size: 16px;
+}
+
+.block-desktop {
+  display: flex;
+  gap: 16px;
+}
+
+.block-mobile {
+  display: none;
+}
+
+.image-container1 {
+  width: 100vw;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0);
+  overflow-x: scroll;
+  gap: 16px;
+  display: flex;
+  scroll-snap-type: x mandatory;
+  align-items: center;
+}
+
+.movie {
+  /* height: 668px; */
+  width: 1250px;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+}
+
+.movie1 {
+  background-image: url(./disclaimer.jpg);
+  width: 1250px;
+  height: 668px;
+}
+
+.movie2 {
+  background-image: url(./fly\ me.jpg);
+  width: 1250px;
+  height: 668px;
+}
+
+.movie3 {
+  background-image: url(./shrinking.jpg);
+  width: 1250px;
+  height: 668px;
+}
+
+.image-container2 {
+  width: 100vw;
+  height: 236px;
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.image-container2::-webkit-scrollbar {
+  display: none;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  animation: spin 40s infinite linear;
+}
+
+.card {
+  display: flex;
+  width: 417px;
+  height: 236px;
+  text-align: center;
+  justify-content: center;
+}
+
+.str {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 50px;
+  padding-top: 580px;
+}
+
+.stream {
+  font-family: "Inter", sans-serif;
+  border-radius: 999px;
+  width: 133px;
+  height: 44px;
+  font-size: 17px;
+  border: none;
+}
+
+.drama {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  color: rgba(255, 255, 255, 1);
+  font-size: 17px;
+}
+
+.texts {
+  display: none;
+}
+
+@keyframes spin {
+  from {
+    translate: 0;
+  }
+  to {
+    translate: -100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .apple {
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+  }
+
+  .background10 {
+    display: none;
+  }
+
+  .logo-store {
+    display: flex;
+    width: 12.97px;
+    height: 15.94px;
+  }
+
+  .back1 {
+    display: flex;
+    position: fixed;
+    width: 390px;
+    height: 44px;
+    background-color: rgba(245, 245, 247, 0.8);
+    font-size: 12px;
+  }
+
+  .back2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 390px;
+    height: 73px;
+    background-color: yellow;
+    font-size: 14px;
+  }
+
+  .choice2 {
+    display: flex;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+  }
+
+  .gap {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .background1 {
+    background-image: url(back1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 390px;
+    height: 500px;
+  }
+
+  .device1 {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: rgba(245, 245, 247, 1);
+    padding-top: 330px;
+  }
+
+  .device2 {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: rgba(245, 245, 247, 1);
+    margin-top: 20px;
+  }
+
+  .background2 {
+    background-image: url(./back2.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 390px;
+    height: 500px;
+  }
+
+  .background3 {
+    display: none;
+  }
+
+  .device3 {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: rgba(245, 245, 247, 1);
+    /* padding-top: 330px; */
+  }
+
+  .device4 {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: rgba(245, 245, 247, 1);
+    /* margin-top: 20px; */
+  }
+
+  .backgrounds1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .backgrounds2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .backgrounds3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .background4 {
+    font-family: "Inter", sans-serif;
+    /* background-image: url(./ipad\ air.png); */
+    width: 390px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .ipad-air {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .background5 {
+    background-image: url(./back4.jpg);
+    width: 390px;
+    height: 490px;
+  }
+
+  .airpods-pro {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(245, 245, 247, 1);
+    font-size: 36px;
+    padding-top: 320px;
+  }
+
+  .now {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(245, 245, 247, 1);
+  }
+
+  .choice1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 390px;
+    height: 48px;
+  }
+
+  .bla {
+    display: none;
+  }
+
+  .background6 {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./back5.jpg);
+    width: 390px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .background7 {
+    font-family: "Inter", sans-serif;
+    width: 390px;
+    height: 500px;
+    background-position: center;
+  }
+
+  .background8 {
+    font-family: "Inter", sans-serif;
+    width: 390px;
+    height: 500px;
+    background-position: center;
+  }
+
+  .ipad-air {
+    margin-top: 58px;
+    padding-left: 130px;
+  }
+
+  .background9 {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./back7.png);
+    width: 390px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .movie {
+    height: 274;
+    width: 495px;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+
+  .movie1 {
+    background-image: url(./movie1.jpg);
+    width: 274px;
+    height: 495px;
+  }
+
+  .movie2 {
+    background-image: url(./movie2.jpg);
+    width: 274px;
+    height: 495px;
+  }
+
+  .movie3 {
+    background-image: url(/movie3.jpg);
+    width: 274px;
+    height: 495px;
+  }
+
+  .block-mobile {
+    display: flex;
+    gap: 16px;
+  }
+
+  .movie4 {
+    background-image: url(./movie4.jpg);
+    width: 274px;
+    height: 495px;
+  }
+
+  .movie5 {
+    background-image: url(./movie5.jpg);
+    width: 274px;
+    height: 495px;
+  }
+
+  .movie6 {
+    background-image: url(./movie6.jpg);
+    width: 274px;
+    height: 495px;
+  }
+
+  .movie7 {
+    background-image: url(./movie7.jpg);
+    width: 274px;
+    height: 495px;
+  }
+
+  .movie8 {
+    background-image: url(./movie8.jpg);
+    width: 274px;
+    height: 495px;
+  }
+
+  .image-container1 {
+    display: flex;
+    width: 370px;
+    background-color: rgba(255, 255, 255, 1);
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .block-desktop {
+    height: 368px;
+    padding-right: 16px;
+  }
+
+  .movies {
+    display: flex;
+    width: 370px;
+    height: 500px;
+    object-fit: cover;
+  }
+
+  .movie {
+    width: 270px;
+    height: 500px;
+    scroll-snap-align: center;
+    flex-shrink: 0;
+  }
+
+  .str {
+    display: none;
+  }
+
+  .image-container2 {
+    width: 390px;
+    height: 134px;
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+  }
+
+  .image-container2::-webkit-scrollbar {
+    display: none;
+  }
+
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    animation: spin 40s infinite linear;
+  }
+
+  .card {
+    display: flex;
+    width: 238px;
+    height: 134px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  @keyframes spin {
+    from {
+      translate: 0;
+    }
+    to {
+      translate: -100%;
+    }
+  }
+
+  .texts {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .bla {
+    display: none;
+  }
+
+  .body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .apple {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .background1 {
+    background-image: url(./ipad\ back1.jpg);
+    height: 650px;
+  }
+
+  .device1 {
+    font-family: "Inter", sans-serif;
+    font-size: 42px;
+    padding-top: 58px;
+  }
+
+  .device2 {
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+  }
+
+  .background2 {
+    background-image: url(./ipad\ back2.jpg);
+    height: 650px;
+  }
+
+  .device3 {
+    font-family: "Inter", sans-serif;
+    font-size: 42px;
+    padding-top: 70px;
+  }
+
+  .device4 {
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+  }
+
+  .ipad-air {
+    padding-left: 130px;
+    display: block;
+  }
+
+  .gift {
+    font-size: 42px;
+  }
+
+  .make {
+    font-size: 22px;
+  }
+
+  .background6 {
+    background-image: url(./back5.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .background9 {
+    display: none;
+  }
+
+  .logo-card {
+    padding-top: 340px;
+  }
+
+  .background10 {
+    font-family: "Inter", sans-serif;
+    background-image: url(./back8.jpg);
+    display: block;
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+  }
+
+  .logo-card {
+    margin-bottom: 5px;
+  }
+
+  .get-upp {
+    text-align: center;
+    font-size: 17px;
+  }
+
+  .withh {
+    text-align: center;
+    font-size: 17px;
+    padding-top: 3px;
+  }
+
+  .block-desktop {
+    height: 368px;
+  }
+
+  .image-container1 {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .movies {
+    display: flex;
+    width: 900px;
+    /* height: 368px; */
+    object-fit: cover;
+    gap: 40px;
+  }
+
+  .movie {
+    width: 690px;
+    /* height: 368px; */
+    scroll-snap-align: center;
+    flex-shrink: 0;
+    gap: 40px;
+  }
+
+  .movie1 {
+    background-image: url(./ipad\ movie1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 689px;
+    height: 368px;
+  }
+
+  .movie2 {
+    background-image: url(./ipad\ movie2.jpg);
+    width: 689px;
+    height: 368px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .movie3 {
+    background-image: url(./shrinking.jpg);
+    width: 689px;
+    height: 368px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .stream {
+    display: none;
+  }
+
+  .drama {
+    display: none;
+  }
+
+  .str {
+    display: none;
+  }
+}
