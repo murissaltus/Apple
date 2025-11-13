@@ -8,6 +8,10 @@
   gap: 10px;
 }
 
+.butt {
+  display: none;
+}
+
 .child {
   height: 100vw;
   background-color: aqua;
@@ -24,6 +28,15 @@ body {
   justify-content: center;
 }
 
+.ipad-airr {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  padding-top: 40px;
+}
+
 .apple {
   display: flex;
   flex-direction: column;
@@ -32,6 +45,8 @@ body {
 
 .choice1 {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 24px;
   font-family: "Inter", sans-serif;
 }
@@ -48,7 +63,6 @@ body {
 }
 
 .logoo {
-  display: flex;
   width: 16px;
   height: 19px;
 }
@@ -57,6 +71,13 @@ body {
   display: flex;
   width: 12.97px;
   height: 15.94px;
+}
+
+.bag-sea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
 }
 
 .back1 {
@@ -68,6 +89,7 @@ body {
   height: 44px;
   background-color: rgba(245, 245, 247, 0.8);
   font-size: 12px;
+  gap: 24px;
 }
 
 .back2 {
@@ -78,7 +100,7 @@ body {
   height: 52px;
   background-color: rgba(255, 255, 255, 1);
   font-size: 14px;
-  padding-top: 44px;
+  padding-top: 43px;
 }
 
 .background1 {
@@ -285,7 +307,7 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 18px;
-  padding-top: 9px;
+  /* padding-top: 9px; */
 }
 
 .airpods-pro {
@@ -450,6 +472,10 @@ body {
   display: none;
 }
 
+.dot-mobile {
+  display: none;
+}
+
 .image-container1 {
   width: 100vw;
   padding: 10px;
@@ -572,6 +598,7 @@ body {
   justify-content: center;
   align-items: center;
   padding-bottom: 10px;
+  gap: 10px;
 }
 
 @keyframes spin {
@@ -583,11 +610,227 @@ body {
   }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .bla {
+    display: none;
+  }
+
+  .logoo {
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+  }
+
+  .butt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bag-sea {
+    display: flex;
+    align-items: center;
+    justify-content: space-betweenw;
+    /* padding-left: 780px; */
+  }
+
+  .back1 {
+    justify-content: space-between;
+  }
+
+  .body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .butto {
+    width: 45px;
+    height: 45px;
+  }
+
+  .apple {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .background1 {
+    background-image: url(./ipad\ back1.jpg);
+    height: 650px;
+  }
+
+  .device1 {
+    font-family: "Inter", sans-serif;
+    font-size: 42px;
+    padding-top: 58px;
+  }
+
+  .device2 {
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+  }
+
+  .background2 {
+    background-image: url(./ipad\ back2.jpg);
+    height: 650px;
+  }
+
+  .device3 {
+    font-family: "Inter", sans-serif;
+    font-size: 42px;
+    padding-top: 70px;
+  }
+
+  .device4 {
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+  }
+
+  .ipad-air {
+    padding-left: 130px;
+    display: block;
+  }
+
+  .gift {
+    font-size: 42px;
+  }
+
+  .make {
+    font-size: 22px;
+  }
+
+  .background6 {
+    background-image: url(./back5.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .background9 {
+    display: none;
+  }
+
+  .logo-card {
+    padding-top: 340px;
+  }
+
+  .background10 {
+    font-family: "Inter", sans-serif;
+    background-image: url(./back8.jpg);
+    display: block;
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+  }
+
+  .logo-card {
+    margin-bottom: 5px;
+  }
+
+  .get-upp {
+    text-align: center;
+    font-size: 17px;
+  }
+
+  .withh {
+    text-align: center;
+    font-size: 17px;
+    padding-top: 3px;
+  }
+
+  .block-desktop {
+    height: 368px;
+  }
+
+  .dot-mobile {
+    display: none;
+  }
+
+  .image-container1 {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .movies {
+    display: flex;
+    width: 900px;
+    /* height: 368px; */
+    object-fit: cover;
+    gap: 40px;
+  }
+
+  .movie {
+    width: 690px;
+    /* height: 368px; */
+    scroll-snap-align: center;
+    flex-shrink: 0;
+    gap: 40px;
+  }
+
+  .movie1 {
+    background-image: url(./ipad\ movie1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 689px;
+    height: 368px;
+  }
+
+  .movie2 {
+    background-image: url(./ipad\ movie2.jpg);
+    width: 689px;
+    height: 368px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .movie3 {
+    background-image: url(./shrinking.jpg);
+    width: 689px;
+    height: 368px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .stream {
+    display: none;
+  }
+
+  .drama {
+    display: none;
+  }
+
+  .str {
+    display: none;
+  }
+
+  .logo-trade {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    padding-top: 58.42px;
+    gap: 8px;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .apple {
     display: flex;
     flex-direction: column;
     font-size: 17px;
+  }
+
+  .butt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .butto {
+    width: 45px;
+    height: 45px;
   }
 
   /* .icons {
@@ -626,6 +869,12 @@ body {
     background-color: rgba(255, 255, 255, 1);
     font-size: 14px;
   }
+
+  /* .choice1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
 
   .choice2 {
     display: flex;
@@ -898,6 +1147,14 @@ body {
     display: none;
   }
 
+  .dot-mobile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
   .image-container2 {
     width: 390px;
     height: 134px;
@@ -940,178 +1197,5 @@ body {
     display: flex;
     justify-content: space-between;
     font-size: 12px;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .bla {
-    display: none;
-  }
-
-  .body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .apple {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .background1 {
-    background-image: url(./ipad\ back1.jpg);
-    height: 650px;
-  }
-
-  .device1 {
-    font-family: "Inter", sans-serif;
-    font-size: 42px;
-    padding-top: 58px;
-  }
-
-  .device2 {
-    font-family: "Inter", sans-serif;
-    font-size: 22px;
-  }
-
-  .background2 {
-    background-image: url(./ipad\ back2.jpg);
-    height: 650px;
-  }
-
-  .device3 {
-    font-family: "Inter", sans-serif;
-    font-size: 42px;
-    padding-top: 70px;
-  }
-
-  .device4 {
-    font-family: "Inter", sans-serif;
-    font-size: 22px;
-  }
-
-  .ipad-air {
-    padding-left: 130px;
-    display: block;
-  }
-
-  .gift {
-    font-size: 42px;
-  }
-
-  .make {
-    font-size: 22px;
-  }
-
-  .background6 {
-    background-image: url(./back5.jpg);
-    background-position: center;
-    background-size: cover;
-  }
-
-  .background9 {
-    display: none;
-  }
-
-  .logo-card {
-    padding-top: 340px;
-  }
-
-  .background10 {
-    font-family: "Inter", sans-serif;
-    background-image: url(./back8.jpg);
-    display: block;
-    background-position: center;
-    background-size: cover;
-    width: 50%;
-  }
-
-  .logo-card {
-    margin-bottom: 5px;
-  }
-
-  .get-upp {
-    text-align: center;
-    font-size: 17px;
-  }
-
-  .withh {
-    text-align: center;
-    font-size: 17px;
-    padding-top: 3px;
-  }
-
-  .block-desktop {
-    height: 368px;
-  }
-
-  .image-container1 {
-    display: flex;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-    align-items: center;
-    gap: 40px;
-  }
-
-  .movies {
-    display: flex;
-    width: 900px;
-    /* height: 368px; */
-    object-fit: cover;
-    gap: 40px;
-  }
-
-  .movie {
-    width: 690px;
-    /* height: 368px; */
-    scroll-snap-align: center;
-    flex-shrink: 0;
-    gap: 40px;
-  }
-
-  .movie1 {
-    background-image: url(./ipad\ movie1.jpg);
-    background-position: center;
-    background-size: cover;
-    width: 689px;
-    height: 368px;
-  }
-
-  .movie2 {
-    background-image: url(./ipad\ movie2.jpg);
-    width: 689px;
-    height: 368px;
-    background-position: center;
-    background-size: cover;
-  }
-
-  .movie3 {
-    background-image: url(./shrinking.jpg);
-    width: 689px;
-    height: 368px;
-    background-position: center;
-    background-size: cover;
-  }
-
-  .stream {
-    display: none;
-  }
-
-  .drama {
-    display: none;
-  }
-
-  .str {
-    display: none;
-  }
-
-  .logo-trade {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 32px;
-    padding-top: 58.42px;
-    gap: 8px;
   }
 }

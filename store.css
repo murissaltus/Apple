@@ -21,6 +21,13 @@ body {
   height: 19px;
 }
 
+.bag-sea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
 .logo-apple {
   display: flex;
   align-items: center;
@@ -35,6 +42,22 @@ body {
   justify-content: center;
   width: 15.94px;
   height: 15.94px;
+}
+
+.searc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+}
+
+.baga {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15px;
+  height: 35px;
 }
 
 .main-store1 {
@@ -55,6 +78,7 @@ body {
   align-items: center;
   justify-content: center;
   font-family: "Inter", sans-serif;
+  padding-top: 40px;
 }
 
 .choice3 {
@@ -64,6 +88,20 @@ body {
   justify-content: center;
   gap: 24px;
   font-size: 12px;
+}
+
+.storeee {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  font-size: 12px;
+}
+
+.saerch {
+  width: 31px;
+  height: 44px;
 }
 
 .choice4 {
